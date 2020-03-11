@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "test": "node --expose-gc ./node_modules/.bin/jest --runInBand --logHeapUsage t"
+    },
+    "jest": {
+        "setupFiles": [
+            "<rootDir>/setupTests.js"
+        ]
+    },
+    "dependencies": {
+        "nunjucks": "^3.2.0",
+        "jest": "^25.1.0"
+    }
+}
